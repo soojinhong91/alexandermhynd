@@ -1,0 +1,19 @@
+.cvTitle {
+  text-align: center;
+}
+
+.cvContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cvText {
+  display: inline-block;
+}
+
+.cvImage {
+  display: inline-block;
+  padding: 20px;
+  max-width: 80vh;
+}

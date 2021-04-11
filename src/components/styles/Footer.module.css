@@ -1,0 +1,27 @@
+footer {
+  background-color: var(--lightgrey);
+  padding: 100px 0;
+  margin: 50px auto;
+}
+
+footer ul {
+  text-align: center;
+  margin: 40px auto;
+  padding-left: 0;
+}
+
+footer ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li img {
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
