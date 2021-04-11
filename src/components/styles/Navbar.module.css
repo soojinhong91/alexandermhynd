@@ -21,12 +21,11 @@
   font-size: 0.8rem;
 }
 
-a {
+li a {
   color: var(--darkgrey);
 }
 
 .navbar__toggleBtn {
-  display: none;
   position: absolute;
   right: 24px;
 }
@@ -35,24 +34,7 @@ a {
   width: 25px;
 }
 
-/* nav ul {
-  padding-left: 0;
-  display: flex;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav a {
-  font-size: small;
-  margin-left: 20px;
-  color: var(--darkgrey);
-  padding: 10px 0;
-  transition: 0.4s;
-} */
-
-nav a:hover {
+nav li a:hover {
   transition: 0.3s;
   color: var(--mint);
   text-decoration: none;
@@ -66,7 +48,6 @@ nav a:hover {
   }
 
   .navbar__menu {
-    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;

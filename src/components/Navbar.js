@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import * as NavbarStyles from "./styles/Navbar.module.css"
@@ -7,10 +7,18 @@ import logo from "../../static/assets/logo.png"
 import burgerMenu from "../../static/assets/burgerMenu.png"
 
 export default function Navbar() {
+  const [showNav, setShowNav] = useState(false)
+  const toggleNav = () => {
+    setShowNav(!showNav)
+  }
+
   return (
     <nav className={NavbarStyles.navbar}>
       <img src={logo} alt="logo" className={NavbarStyles.navbar__logo} />
-      <ul className={NavbarStyles.navbar__menu}>
+      <ul
+        className={NavbarStyles.navbar__menu}
+        style={{ display: showNav ? `flex` : `none` }}
+      >
         <li>
           <Link to="/">HOME</Link>
         </li>
@@ -31,13 +39,13 @@ export default function Navbar() {
         </li>
       </ul>
 
-      <a href="#" className={NavbarStyles.navbar__toggleBtn}>
+      <a
+        href="#"
+        className={NavbarStyles.navbar__toggleBtn}
+        onClick={toggleNav}
+      >
         <img src={burgerMenu} alt="burgerMenu" />
       </a>
     </nav>
   )
 }
-
-// TO DO
-// 1. responsive
-// 2. reduce font weight

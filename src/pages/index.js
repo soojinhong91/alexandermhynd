@@ -5,6 +5,8 @@ import * as HomeStyles from "../styles/home.module.css"
 import Layout from "../components/Layout"
 import alexander from "../../static/assets/home/alexander.png"
 
+import "bootstrap/dist/css/bootstrap.min.css"
+
 export default function Home() {
   return (
     <Layout>
