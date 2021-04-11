@@ -18,11 +18,18 @@ export default function CV() {
           Download CV
         </a>
         <div className="imgContainer">
-          <img
-            src={cv_screen_shot}
-            alt="cv_screen_shot"
-            className={CvStyles.cvImage}
-          />
+          <a
+            href={Curriculum_Vitae_Alexander_M_Hynd}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={CvStyles.cvText}
+          >
+            <img
+              src={cv_screen_shot}
+              alt="cv_screen_shot"
+              className={CvStyles.cvImage}
+            />
+          </a>
         </div>
       </div>
     </Layout>

@@ -10,6 +10,13 @@
 
 .cvText {
   display: inline-block;
+  color: var(--darkgrey);
+}
+
+.cvText:hover {
+  text-decoration: none;
+  color: var(--mint);
+  transition: 0.3s;
 }
 
 .cvImage {

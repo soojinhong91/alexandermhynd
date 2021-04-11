@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "./Navbar"
+import Navigation from "./Navbar"
 import Footer from "./Footer"
 import "../styles/global.css"
 
@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <Container>
-        <Navbar />
+        <Navigation />
         <div className="content">{children}</div>
       </Container>
       <Footer />

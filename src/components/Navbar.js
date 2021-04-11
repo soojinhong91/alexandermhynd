@@ -1,51 +1,27 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
-
+import React from "react"
 import * as NavbarStyles from "./styles/Navbar.module.css"
-
+import { Navbar, Nav } from "react-bootstrap"
 import logo from "../../static/assets/logo.png"
-import burgerMenu from "../../static/assets/burgerMenu.png"
-
-export default function Navbar() {
-  const [showNav, setShowNav] = useState(false)
-  const toggleNav = () => {
-    setShowNav(!showNav)
-  }
-
+export default function Navigation() {
   return (
-    <nav className={NavbarStyles.navbar}>
-      <img src={logo} alt="logo" className={NavbarStyles.navbar__logo} />
-      <ul
-        className={NavbarStyles.navbar__menu}
-        style={{ display: showNav ? `flex` : `none` }}
-      >
-        <li>
-          <Link to="/">HOME</Link>
-        </li>
-        <li>
-          <Link to="/about">ABOUT</Link>
-        </li>
-        <li>
-          <Link to="/cv">CV</Link>
-        </li>
-        <li>
-          <Link to="/research">RESEARCH</Link>
-        </li>
-        <li>
-          <Link to="/recent-activities">RECENT ACTIVITIES</Link>
-        </li>
-        <li>
-          <Link to="/contact">CONTACT</Link>
-        </li>
-      </ul>
-
-      <a
-        href="#"
-        className={NavbarStyles.navbar__toggleBtn}
-        onClick={toggleNav}
-      >
-        <img src={burgerMenu} alt="burgerMenu" />
-      </a>
-    </nav>
+    <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
+      <Navbar.Brand href="/">
+        <img src={logo} alt="logo" className={NavbarStyles.navbar__logo} />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="/">HOME</Nav.Link>
+          <Nav.Link href="/about">ABOUT</Nav.Link>
+          <Nav.Link href="/cv">CV</Nav.Link>
+          <Nav.Link href="/research">RESEARCH</Nav.Link>
+          <Nav.Link href="/recent-activities">RECENT ACTIVITIES</Nav.Link>
+          <Nav.Link href="/contact">CONTACT</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
+
+// TODO //
+// navbar: align-right
