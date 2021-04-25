@@ -10,7 +10,7 @@ export default function Research() {
       <h2 className={AboutStyles.title}>Research</h2>
 
       <div className={RecentStyles.content__card}>
-        <h4>JOURNAL ARTICLES</h4>
+        <h5>JOURNAL ARTICLES</h5>
         <ul>
           <li>
             ‘Learning to Share? A Cold War Solution for Denuclearizing the
@@ -21,7 +21,7 @@ export default function Research() {
       </div>
 
       <div className={RecentStyles.content__card}>
-        <h4>BOOK CHAPTERS</h4>
+        <h5>BOOK CHAPTERS</h5>
         <ul>
           <li>
             ‘To the Sea, to the World: Public Diplomacy and the Republic of
@@ -33,7 +33,7 @@ export default function Research() {
       </div>
 
       <div className={RecentStyles.content__card}>
-        <h4>BOOK REVIEWS</h4>
+        <h5>BOOK REVIEWS</h5>
         <ul>
           <li>
             ‘The Modernisation of the Republic of Korea Navy: Seapower, Strategy
@@ -48,7 +48,7 @@ export default function Research() {
       </div>
 
       <div className={RecentStyles.content__card}>
-        <h4>COMMENTARIES</h4>
+        <h5>COMMENTARIES</h5>
         <ul>
           <li>
             “Strengthening South Korea’s Non-Proliferation Norm: Should

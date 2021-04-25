@@ -4,7 +4,6 @@ import Layout from "../components/Layout"
 import cv_screen_shot from "../../public/assets/cv/cv_screen_shot.png"
 import Curriculum_Vitae_Alexander_M_Hynd from "../../public/assets/cv/Curriculum_Vitae_Alexander_M_Hynd_March_2021.pdf"
 
-import * as AboutStyles from "../styles/about.module.css"
 import * as CvStyles from "../styles/cv.module.css"
 
 export default function CV() {
