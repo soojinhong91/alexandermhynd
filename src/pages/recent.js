@@ -5,12 +5,13 @@ import NUAC from "../../static/assets/recent-activities/NUAC.jpg"
 import APLNKT from "../../static/assets/recent-activities/APLNKT.jpg"
 import AIIA from "../../static/assets/recent-activities/AIIA.jpg"
 
+import * as AboutStyles from "../styles/about.module.css"
 import * as RecentStyles from "../styles/recent.module.css"
 
 export default function RecentActivities() {
   return (
     <Layout>
-      <h2>Recent Activities</h2>
+      <h2 className={AboutStyles.title}>Recent Activities</h2>
 
       <div className={RecentStyles.content__card}>
         <h4 className={RecentStyles.activity__title}>

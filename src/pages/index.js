@@ -12,14 +12,16 @@ export default function Home() {
     <Layout>
       <section className={HomeStyles.homeGreeting}>
         <div className={HomeStyles.homeText}>
-          <p className={HomeStyles.homeTextParag}>
-            Welcome! I’m Alexander M. Hynd.
-          </p>
+          <h3 className={HomeStyles.homeTextTitle}>
+            Welcome! I’m Alexander M. Hynd
+          </h3>
           <p className={HomeStyles.homeTextParag}>
             British researcher of international politics, currently based in
             Sydney, Australia.
-            <br></br>I specialise in the politics of the Korean Peninsula & the
-            Asia Pacific.
+          </p>
+          <p className={HomeStyles.homeTextParag}>
+            I specialise in the politics of the Korean Peninsula & the Asia
+            Pacific.
           </p>
           <p className={HomeStyles.homeTextParag}>
             <Link to="/about">Learn more </Link>

@@ -1,18 +1,21 @@
 import React from "react"
 import Layout from "../components/Layout"
+import al_about_pic from "../../public/assets/about/al_about_pic.png"
+
 import * as AboutStyles from "../styles/about.module.css"
 
 export default function About() {
   return (
     <Layout>
+      <h2 className={AboutStyles.title}>About</h2>
+
       <section className={AboutStyles.aboutBody}>
         <img
-          src="https://loremflickr.com/400/600"
-          alt="placeholder"
+          src={al_about_pic}
+          alt="al_about_pic"
           className={AboutStyles.aboutImage}
         />
         <div className={AboutStyles.aboutText}>
-          <h1>About</h1>
           <p>
             I am a British researcher of international relations, currently
             based in Sydney, Australia. I am a PhD candidate and sessional

@@ -1,17 +1,22 @@
+.title {
+  margin-bottom: 30px;
+}
+
 .aboutBody {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .aboutImage {
   display: inline-block;
-  padding: 20px;
+  padding-right: 20px;
+  width: 43%;
 }
 
 .aboutText {
   display: inline-block;
-  padding: 20px;
-  width: 600px;
+  padding-left: 20px;
+  width: 55%;
 }

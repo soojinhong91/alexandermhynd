@@ -1,12 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
 
+import * as AboutStyles from "../styles/about.module.css"
 import * as RecentStyles from "../styles/recent.module.css"
 
 export default function Research() {
   return (
     <Layout>
-      <h2>Research</h2>
+      <h2 className={AboutStyles.title}>Research</h2>
 
       <div className={RecentStyles.content__card}>
         <h4>JOURNAL ARTICLES</h4>

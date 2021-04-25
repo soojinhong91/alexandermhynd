@@ -1,8 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
+
+import cv_screen_shot from "../../public/assets/cv/cv_screen_shot.png"
+import Curriculum_Vitae_Alexander_M_Hynd from "../../public/assets/cv/Curriculum_Vitae_Alexander_M_Hynd_March_2021.pdf"
+
+import * as AboutStyles from "../styles/about.module.css"
 import * as CvStyles from "../styles/cv.module.css"
-import cv_screen_shot from "../../static/assets/cv/cv_screen_shot.png"
-import Curriculum_Vitae_Alexander_M_Hynd from "../../static/assets/cv/Curriculum_Vitae_Alexander_M_Hynd.pdf"
 
 export default function CV() {
   return (

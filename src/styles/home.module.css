@@ -7,7 +7,7 @@
 
 .homeImage {
   display: inline-block;
-  width: 200px;
+  width: 40%;
   padding: 20px;
 }
 
@@ -15,6 +15,18 @@
   display: inline-block;
   text-decoration: none;
   color: black;
+  width: 50%;
+}
+
+.homeTextTitle {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.homeTextParag {
+  font-size: 25px;
+  padding-bottom: 20px;
+  text-align: left;
 }
 
 .homeText a {
@@ -26,8 +38,4 @@
   text-decoration: none;
   color: var(--mint);
   transition: 0.3s;
-}
-
-.homeTextParag {
-  padding: 20px 0;
 }
