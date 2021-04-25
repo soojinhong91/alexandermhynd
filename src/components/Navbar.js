@@ -15,7 +15,7 @@ export default function Navigation() {
           <Nav.Link href="/about">ABOUT</Nav.Link>
           <Nav.Link href="/cv">CV</Nav.Link>
           <Nav.Link href="/research">RESEARCH</Nav.Link>
-          <Nav.Link href="/recent-activities">RECENT ACTIVITIES</Nav.Link>
+          <Nav.Link href="/recent">RECENT ACTIVITIES</Nav.Link>
           <Nav.Link href="/contact">CONTACT</Nav.Link>
         </Nav>
       </Navbar.Collapse>
