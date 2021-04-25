@@ -1,12 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
 
+import * as RecentStyles from "../styles/recent.module.css"
+
 export default function Research() {
   return (
     <Layout>
       <h2>Research</h2>
-      <div>
-        <h3>JOURNAL ARTICLES</h3>
+
+      <div className={RecentStyles.content__card}>
+        <h4>JOURNAL ARTICLES</h4>
         <ul>
           <li>
             ‘Learning to Share? A Cold War Solution for Denuclearizing the
@@ -16,8 +19,8 @@ export default function Research() {
         </ul>
       </div>
 
-      <div>
-        <h3>BOOK CHAPTERS</h3>
+      <div className={RecentStyles.content__card}>
+        <h4>BOOK CHAPTERS</h4>
         <ul>
           <li>
             ‘To the Sea, to the World: Public Diplomacy and the Republic of
@@ -28,8 +31,8 @@ export default function Research() {
         </ul>
       </div>
 
-      <div>
-        <h3>BOOK REVIEWS</h3>
+      <div className={RecentStyles.content__card}>
+        <h4>BOOK REVIEWS</h4>
         <ul>
           <li>
             ‘The Modernisation of the Republic of Korea Navy: Seapower, Strategy
@@ -43,8 +46,8 @@ export default function Research() {
         </ul>
       </div>
 
-      <div>
-        <h3>COMMENTARIES</h3>
+      <div className={RecentStyles.content__card}>
+        <h4>COMMENTARIES</h4>
         <ul>
           <li>
             “Strengthening South Korea’s Non-Proliferation Norm: Should

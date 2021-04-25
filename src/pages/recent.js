@@ -12,7 +12,7 @@ export default function RecentActivities() {
     <Layout>
       <h2>Recent Activities</h2>
 
-      <div className={RecentStyles.activity__card}>
+      <div className={RecentStyles.content__card}>
         <h4 className={RecentStyles.activity__title}>
           Award (ROK MOFA/Global Public Diplomacy Center)
         </h4>
@@ -38,7 +38,7 @@ export default function RecentActivities() {
         </div>
       </div>
 
-      <div className={RecentStyles.activity__card}>
+      <div className={RecentStyles.content__card}>
         <h4 className={RecentStyles.activity__title}>
           Award (NUAC Asia-Pacific Assembly)
         </h4>
@@ -62,7 +62,7 @@ export default function RecentActivities() {
         </div>
       </div>
 
-      <div className={RecentStyles.activity__card}>
+      <div className={RecentStyles.content__card}>
         <h4 className={RecentStyles.activity__title}>
           Award (APLN/Korea Times)
         </h4>
@@ -91,7 +91,7 @@ export default function RecentActivities() {
         </div>
       </div>
 
-      <div className={RecentStyles.activity__card}>
+      <div className={RecentStyles.content__card}>
         <h4 className={RecentStyles.activity__title}>
           Workshop (AIIA/Korea Foundation)
         </h4>
