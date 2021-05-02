@@ -1,8 +1,4 @@
-.bodyContent {
-  display: flex;
-  flex-wrap: wrap;
-}
-
+/* --- Below is both for Research & Recent Activity pages --- */
 .content__card {
   border: var(--grey) solid 2px;
   border-radius: 0.3em;
@@ -10,9 +6,8 @@
   padding: 20px;
   margin: 0 20px;
   margin-bottom: 20px;
-  width: 470px;
 }
-
+/* --- Below is for Recent Activity pages --- */
 .activity__content {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -22,8 +17,9 @@
 }
 
 .activity__img {
-  max-width: 300px;
+  max-width: 40vh;
   display: inline;
+  padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 16px;
 }
