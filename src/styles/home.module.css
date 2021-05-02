@@ -8,6 +8,7 @@
 
 .homeImage {
   max-width: 250px;
+  border-radius: 1em;
 }
 
 .homeText {

@@ -8,11 +8,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Frosted Blog`,
-        short_name: `Gatsby Frosted`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#26436a`,
         display: `minimal-ui`,
         icon: `static/assets/logo.png`,
       },

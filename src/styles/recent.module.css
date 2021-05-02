@@ -17,7 +17,7 @@
 }
 
 .activity__img {
-  max-width: 40vh;
+  max-width: 30vh;
   display: inline;
   padding-left: 16px;
   padding-right: 16px;
@@ -28,7 +28,7 @@
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  max-width: 90vh;
+  max-width: 90vw;
 }
 
 ul {
