@@ -2,14 +2,14 @@ import React from "react"
 import Layout from "../components/Layout"
 
 import * as AboutStyles from "../styles/about.module.css"
-import * as RecentStyles from "../styles/recent.module.css"
+import * as ResearchStyles from "../styles/research.module.css"
 
 export default function Research() {
   return (
     <Layout>
       <h2 className={AboutStyles.title}>Research</h2>
 
-      <div className={RecentStyles.content__card}>
+      <div className={ResearchStyles.content__card}>
         <h5>JOURNAL ARTICLES</h5>
         <ul>
           <li>
@@ -20,7 +20,7 @@ export default function Research() {
         </ul>
       </div>
 
-      <div className={RecentStyles.content__card}>
+      <div className={ResearchStyles.content__card}>
         <h5>BOOK CHAPTERS</h5>
         <ul>
           <li>
@@ -32,7 +32,7 @@ export default function Research() {
         </ul>
       </div>
 
-      <div className={RecentStyles.content__card}>
+      <div className={ResearchStyles.content__card}>
         <h5>BOOK REVIEWS</h5>
         <ul>
           <li>
@@ -47,7 +47,7 @@ export default function Research() {
         </ul>
       </div>
 
-      <div className={RecentStyles.content__card}>
+      <div className={ResearchStyles.content__card}>
         <h5>COMMENTARIES</h5>
         <ul>
           <li>
