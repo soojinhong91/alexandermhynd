@@ -26,9 +26,9 @@
 
 .activity__text {
   display: inline-flex;
-  min-width: 300px;
   flex-direction: column;
   align-items: center;
+  max-width: 40vh;
 }
 
 ul {
