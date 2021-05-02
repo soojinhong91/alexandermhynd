@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import "@fontsource/quicksand"
 import * as HomeStyles from "../styles/home.module.css"
 import Layout from "../components/Layout"
-import alHomePic from "../../public/assets/home/alHomePic.png"
+import alHomePic from "../../static/assets/home/alHomePic.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 

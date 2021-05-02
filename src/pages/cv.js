@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-import cv_screen_shot from "../../public/assets/cv/cv_screen_shot.png"
+import cvScreenShot from "../../static/assets/cv/cvScreenShot.png"
 import cvFile from "../../static/assets/cv/Curriculum_Vitae_Alexander_M_Hynd_March_2021.pdf"
 
 import * as CvStyles from "../styles/cv.module.css"
@@ -27,8 +27,8 @@ export default function CV() {
             className={CvStyles.cvText}
           >
             <img
-              src={cv_screen_shot}
-              alt="cv_screen_shot"
+              src={cvScreenShot}
+              alt="cvScreenShot"
               className={CvStyles.cvImage}
             />
           </a>
