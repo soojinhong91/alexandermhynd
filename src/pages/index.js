@@ -12,7 +12,8 @@ export default function Home() {
     <Layout>
       <section className={HomeStyles.homeBody}>
         <div className={HomeStyles.homeText}>
-          <h3 className={HomeStyles.homeTextTitle}>Welcome! I’m Alexander.</h3>
+          <h3 className={HomeStyles.homeTextTitle}>Welcome!</h3>
+          <h3 className={HomeStyles.homeTextTitle}>I’m Alexander M. Hynd</h3>
           <p className={HomeStyles.homeTextParag}>
             British researcher of international politics, currently based in
             Sydney, Australia.
