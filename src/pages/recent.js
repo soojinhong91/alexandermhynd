@@ -14,9 +14,7 @@ export default function RecentActivities() {
       <h2 className={AboutStyles.title}>Recent Activities</h2>
 
       <div className={RecentStyles.content__card}>
-        <h5 className={RecentStyles.activity__title}>
-          Award (ROK MOFA/Global Public Diplomacy Center)
-        </h5>
+        <h5>Award (ROK MOFA/Global Public Diplomacy Center)</h5>
 
         <div className={RecentStyles.activity__content}>
           <img
@@ -25,8 +23,8 @@ export default function RecentActivities() {
             alt="PublicDiplomacyChapter"
           />
           <div className={RecentStyles.activity__text}>
-            <p className={RecentStyles.activity__date}>December 28, 2020</p>
-            <p className={RecentStyles.activity__detail}>
+            <p>December 28, 2020</p>
+            <p>
               I was awarded First Prize in the 2020 Korean Public Diplomacy
               Paper Contest, organised by the ROK Ministry of Foreign Affairs
               and the Global Public Diplomacy Center, for a research paper I
@@ -40,15 +38,13 @@ export default function RecentActivities() {
       </div>
 
       <div className={RecentStyles.content__card}>
-        <h5 className={RecentStyles.activity__title}>
-          Award (NUAC Asia-Pacific Assembly)
-        </h5>
+        <h5>Award (NUAC Asia-Pacific Assembly)</h5>
 
         <div className={RecentStyles.activity__content}>
           <img className={RecentStyles.activity__img} src={NUAC} alt="NUAC" />
           <div className={RecentStyles.activity__text}>
-            <p className={RecentStyles.activity__date}>December 18, 2020</p>
-            <p className={RecentStyles.activity__detail}>
+            <p>December 18, 2020</p>
+            <p>
               I was awarded The Presidential Citation by South Korean President
               Moon Jae-in in his capacity as Chairman of the National
               Unification Advisory Council Asia-Pacific Assembly, for an essay I
@@ -64,9 +60,7 @@ export default function RecentActivities() {
       </div>
 
       <div className={RecentStyles.content__card}>
-        <h5 className={RecentStyles.activity__title}>
-          Award (APLN/Korea Times)
-        </h5>
+        <h5>Award (APLN/Korea Times)</h5>
 
         <div className={RecentStyles.activity__content}>
           <img
@@ -75,8 +69,8 @@ export default function RecentActivities() {
             alt="APLNKT"
           />
           <div className={RecentStyles.activity__text}>
-            <p className={RecentStyles.activity__date}>November 27, 2020</p>
-            <p className={RecentStyles.activity__detail}>
+            <p>November 27, 2020</p>
+            <p>
               I was awarded The Korea Times Award by the Asia Pacific Leadership
               Network (APLN) and the Korea Times for a short article I wrote on
               non-proliferation and disarmament issues in the Asia Pacific. My
@@ -93,15 +87,13 @@ export default function RecentActivities() {
       </div>
 
       <div className={RecentStyles.content__card}>
-        <h5 className={RecentStyles.activity__title}>
-          Workshop (AIIA/Korea Foundation)
-        </h5>
+        <h5>Workshop (AIIA/Korea Foundation)</h5>
 
         <div className={RecentStyles.activity__content}>
           <img className={RecentStyles.activity__img} src={AIIA} alt="AIIA" />
           <div className={RecentStyles.activity__text}>
-            <p className={RecentStyles.activity__date}>November 25, 2020</p>
-            <p className={RecentStyles.activity__detail}>
+            <p>November 25, 2020</p>
+            <p>
               I was invited to take part in the 2020 Korea-Oceania Next
               Generation Policy Expert Forum hosted online by the Australian
               Institute of International Affairs and the Korea Foundation. This

@@ -9,7 +9,7 @@ import * as CvStyles from "../styles/cv.module.css"
 export default function CV() {
   return (
     <Layout>
-      <h2 className={CvStyles.cvTitle}>CV</h2>
+      <h2>CV</h2>
       <div className={CvStyles.cvContent}>
         <a
           href={cvFile}

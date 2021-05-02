@@ -6,7 +6,7 @@ import { Navbar, Nav } from "react-bootstrap"
 
 export default function Navigation() {
   return (
-    <div className={NavbarStyles.navbar__bar}>
+    <div>
       <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
         <Navbar.Brand href="/">
           <img src={logo} alt="logo" className={NavbarStyles.navbar__logo} />
@@ -26,6 +26,3 @@ export default function Navigation() {
     </div>
   )
 }
-
-// TODO //
-// 1. padding: 0
