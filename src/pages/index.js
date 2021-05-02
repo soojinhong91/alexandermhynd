@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import "@fontsource/quicksand"
 import * as HomeStyles from "../styles/home.module.css"
 import Layout from "../components/Layout"
-import alexander from "../../static/assets/home/alexander.png"
+import alHomePic from "../../public/assets/home/alHomePic.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -27,11 +27,7 @@ export default function Home() {
             <Link to="/about">Learn more </Link>
           </p>
         </div>
-        <img
-          src={alexander}
-          alt="alexander-home-pic"
-          className={HomeStyles.homeImage}
-        />
+        <img src={alHomePic} alt="alHomePic" className={HomeStyles.homeImage} />
       </section>
     </Layout>
   )

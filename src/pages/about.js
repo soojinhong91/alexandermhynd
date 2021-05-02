@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import al_about_pic from "../../public/assets/about/al_about_pic.png"
+import alAboutPic from "../../static/assets/about/alAboutPic.png"
 
 import * as AboutStyles from "../styles/about.module.css"
 
@@ -11,8 +11,8 @@ export default function About() {
 
       <section className={AboutStyles.aboutBody}>
         <img
-          src={al_about_pic}
-          alt="al_about_pic"
+          src={alAboutPic}
+          alt="alAboutPic"
           className={AboutStyles.aboutImage}
         />
         <div className={AboutStyles.aboutText}>
