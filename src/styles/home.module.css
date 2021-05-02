@@ -1,21 +1,18 @@
-.homeGreeting {
+.homeBody {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
+  margin-top: 3rem;
 }
 
 .homeImage {
-  display: inline-block;
-  width: 40%;
-  padding: 20px;
+  max-width: 350px;
 }
 
 .homeText {
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  width: 50%;
+  margin-right: 2rem;
+  max-width: 500px;
 }
 
 .homeTextTitle {
@@ -30,7 +27,6 @@
 }
 
 .homeText a {
-  text-decoration: none;
   color: var(--darkgrey);
 }
 
