@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
-import PublicDiplomacyChapter from "../../static/assets/recent-activities/PublicDiplomacyChapter.jpg"
-import NUAC from "../../static/assets/recent-activities/NUAC.jpg"
-import APLNKT from "../../static/assets/recent-activities/APLNKT.jpg"
-import AIIA from "../../static/assets/recent-activities/AIIA.jpg"
+import _6_NCAFPLogo from "../../static/assets/recent-activities/_6_NCAFPLogo.jpg"
+import _5_TeachingCertificate from "../../static/assets/recent-activities/_5_TeachingCertificate.png"
+import _4_PublicDiplomacyChapter from "../../static/assets/recent-activities/_4_PublicDiplomacyChapter.jpg"
+import _3_NUAC from "../../static/assets/recent-activities/_3_NUAC.jpg"
+import _2_APLNKT from "../../static/assets/recent-activities/_2_APLNKT.jpg"
+import _1_AIIA from "../../static/assets/recent-activities/_1_AIIA.jpg"
 
 import * as AboutStyles from "../styles/about.module.css"
 import * as RecentStyles from "../styles/recent.module.css"
@@ -14,13 +16,62 @@ export default function RecentActivities() {
       <h2 className={AboutStyles.title}>Recent Activities</h2>
 
       <div className={RecentStyles.content__card}>
+        <h5>
+          Workshop Presentation (National Committee on American Foreign Policy)
+        </h5>
+
+        <div className={RecentStyles.activity__content}>
+          <img
+            className={RecentStyles.activity__img}
+            src={_6_NCAFPLogo}
+            alt="_6_NCAFPLogo"
+          />
+          <div className={RecentStyles.activity__text}>
+            <p>May 25, 2021</p>
+            <p>
+              In May 2021, I was selected as one of ten participants in the
+              National Committee on American Foreign Policy's Next Generation
+              Korea Specialists Program, which aims to help emerging leaders
+              translate their research ideas into policy recommendations, and to
+              develop public communications skills in presenting their
+              recommendations. The first workshop was held on May 25, during
+              which I presented my research prospectus to the group for peer
+              feedback.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className={RecentStyles.content__card}>
+        <h5>Teaching Certificate (UNSW Sydney) </h5>
+
+        <div className={RecentStyles.activity__content}>
+          <img
+            className={RecentStyles.activity__img}
+            src={_5_TeachingCertificate}
+            alt="_5_TeachingCertificate"
+          />
+          <div className={RecentStyles.activity__text}>
+            <p>May 19, 2021</p>
+            <p>
+              From February - May 2021, I participated in UNSW's Foundations of
+              University Learning and Teaching (FULT) program, an assessed
+              professional development course in which I explored a range of
+              perspectives, ideas, theories, and practical approaches to
+              learning and teaching in the higher education context.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className={RecentStyles.content__card}>
         <h5>Award (ROK MOFA/Global Public Diplomacy Center)</h5>
 
         <div className={RecentStyles.activity__content}>
           <img
             className={RecentStyles.activity__img}
-            src={PublicDiplomacyChapter}
-            alt="PublicDiplomacyChapter"
+            src={_4_PublicDiplomacyChapter}
+            alt="_4_PublicDiplomacyChapter"
           />
           <div className={RecentStyles.activity__text}>
             <p>December 28, 2020</p>
@@ -41,7 +92,11 @@ export default function RecentActivities() {
         <h5>Award (NUAC Asia-Pacific Assembly)</h5>
 
         <div className={RecentStyles.activity__content}>
-          <img className={RecentStyles.activity__img} src={NUAC} alt="NUAC" />
+          <img
+            className={RecentStyles.activity__img}
+            src={_3_NUAC}
+            alt="_3_NUAC"
+          />
           <div className={RecentStyles.activity__text}>
             <p>December 18, 2020</p>
             <p>
@@ -65,8 +120,8 @@ export default function RecentActivities() {
         <div className={RecentStyles.activity__content}>
           <img
             className={RecentStyles.activity__img}
-            src={APLNKT}
-            alt="APLNKT"
+            src={_2_APLNKT}
+            alt="_2_APLNKT"
           />
           <div className={RecentStyles.activity__text}>
             <p>November 27, 2020</p>
@@ -90,7 +145,11 @@ export default function RecentActivities() {
         <h5>Workshop (AIIA/Korea Foundation)</h5>
 
         <div className={RecentStyles.activity__content}>
-          <img className={RecentStyles.activity__img} src={AIIA} alt="AIIA" />
+          <img
+            className={RecentStyles.activity__img}
+            src={_1_AIIA}
+            alt="_1_AIIA"
+          />
           <div className={RecentStyles.activity__text}>
             <p>November 25, 2020</p>
             <p>
@@ -107,3 +166,20 @@ export default function RecentActivities() {
     </Layout>
   )
 }
+
+// Format to add
+// <div className={RecentStyles.content__card}>
+//   <h5>title</h5>
+
+//   <div className={RecentStyles.activity__content}>
+//     <img
+//       className={RecentStyles.activity__img}
+//       src={}
+//       alt=""
+//     />
+//     <div className={RecentStyles.activity__text}>
+//       <p>date</p>
+//       <p>body text</p>
+//     </div>
+//   </div>
+// </div>
